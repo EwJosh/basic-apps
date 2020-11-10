@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sale Calculator</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+          <li class="navlink"><a href="../index.html">Home</a></li>
+          <li class="navlink"><a href="../clock/index.html">Clock</a></li>
+          <li class="navlink"><a href="../salescalculator/index.html">Sales Calculator</a></li>
+          <li class="navlink">Shopping Cart</li>
+      </ul>
+    </nav>
+    <div>
+      <div class="page">
+        <h1>Item</h1>
+        Item Name: <input id="itemName" type="text" />
+        <br />
+        <button id="addItemButton">Add to cart</button>
+        <h3 id="result">$00.00</h3>
+        <button id="calcButton">Calculate</button>
+        <br />
+        Original Price: $<input id="originalPrice" type="text" />
+        <br />
+        Percent Off: <input id="percentOff" type="text" />%
+      </div>
+      <div class="cart">
+        <h1>Cart</h1>
+        <ul id="items"></ul>
+      </div>
+    </div>
+    <footer>&copy; Edward Josh C. Hermano</footer>
+  </body>
+</html>

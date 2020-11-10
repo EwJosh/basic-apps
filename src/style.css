@@ -1,0 +1,22 @@
+body {
+  background-color: antiquewhite;
+}
+
+.navbar {
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  background-color: rgb(80, 221, 221);
+  padding: 1px;
+}
+
+.navlink {
+  display: inline;
+  padding-right: 24px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}

@@ -1,0 +1,63 @@
+body {
+  background-color: lightcoral;
+  text-align: center;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.navbar {
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  background-color: rgb(80, 221, 221);
+  padding: 1px;
+}
+
+.navlink {
+  display: inline;
+  padding-right: 24px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+h1 {
+  font-size: 52px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#clock {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 52px;
+}
+
+#imageDisplay {
+  /*width: 300px;*/
+  height: 300px;
+}
+
+select {
+  font-size: 30px;
+  padding: 5px 1px;
+}
+
+#randomButton {
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 50px 80;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+footer {
+  font-size: 15px;
+}
